@@ -37,8 +37,8 @@ app.use(session({
 app.use(methodOverride('_method'));
 
 // Routes
-const fakePayment = require('./routes/fakePayment');
-app.use(fakePayment);
+
+
 
 const chatboxRouter = require('./routes/client/chat');
 app.use(chatboxRouter);
